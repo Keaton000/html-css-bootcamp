@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="#">
+        <label for="full-name">Full name</label>
+        <input type="text" name="full_name" id="full-name" placeholder="Enter Full name"> <!--Input Type Text Can Type Anything-->
+
+        <label for="last-name">Last name</label>
+        <input type="text" name="last_name" id="last-name" required> <!--Input Type Text Can Type Anything-->
+        <br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"> <!--Hides whatever you types-->
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="0" max="20" required> <!--This can only type Numbers-->
+        <br>
+        <label for="birth-day">Birthday</label>
+        <input type="date" name="birth_day" id="birth-day"> <!--This Shows Calendar or for Dates-->
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email"> <!--Only acecpts Email-->
+        <br>
+        <label for="comments">Comments</label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea> <!--For larger text or many text-->
+
+        <br>
+        <p>Please select your favorite music genre:</p>
+        <input type="radio" name="music" id="rock" value="rock"> <!--Only for 1 answer-->
+        <label for="rock">Rock</label>
+
+        <input type="radio" name="music" id="pop" value="pop">
+        <label for="pop">Pop</label>
+
+        <input type="radio" name="music" id="jazz" value="jazz">
+        <label for="jazz">Jazz</label>
+
+        <br>
+        <p>Please select your favorite food:</p>
+        <input type="checkbox" name="food" id="ramen" value="ramen" > <!--Can Select multiple answer or more than 1-->
+        <label for="ramen">Ramen</label>
+
+        <input type="checkbox" name="food" id="sushi" value="sushi" >
+        <label for="sushi">Sushi</label>
+
+        <input type="checkbox" name="food" id="curry" value="curry" >
+        <label for="curry">Curry</label>
+
+
+        <br>
+        <label for="device">What is your device?</label> <!--Drop down for 1-->
+        <select name="device" id="device" required>
+            <option value="macbook">Macbook</option>
+            <option value="ipad">iPad</option>
+            <option value="iphone">iPhone</option>
+        </select>
+
+        <br>
+        <label for="car">Select a Car:</label>
+        <select name="car" id="car" multiple required> <!--Multiple Select in one box-->
+            <option value="toyata">Toyota</option>
+            <option value="nissan">Nissan</option>
+            <option value="honda">Honda</option>
+        </select>
+
+        <br>
+        <label for="file">Upload File:</label> <!--Uploading of File-->
+        <input type="file" name="file" id="file">
+        <br>
+        <input type="submit" name="btn_submit" value="Submit"> <!--Submiting the form-->
+        <br>
+        <button type="submit" name="submit">Submit</button> <!--Submiting the form-->
+
+
+
+        <input type="reset" name="clear" id="clear" value="Clear it!">
+    </form>
+</body>
+</html>
