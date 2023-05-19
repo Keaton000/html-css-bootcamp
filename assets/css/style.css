@@ -1,0 +1,27 @@
+* {
+    color: blue;
+}
+
+p {
+    color: pink;
+}
+
+span {
+    color: green;
+}
+
+h1.topHeader {
+    color: darkcyan;
+}
+
+h1 {
+    color: brown;
+}
+
+#first-paragraph{
+    color: aquamarine;
+}
+
+.header-body {
+    background-color: black;
+}
